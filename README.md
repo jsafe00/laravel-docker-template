@@ -1,4 +1,6 @@
-### Dockerize existing laravel project
+### Dockerize Laravel Lumen 
+
+#### Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching. https://github.com/laravel/lumen
 
 ### You can check the tutorial at: http://safventure.live/dockerize-existing-laravel-project
 
@@ -17,4 +19,14 @@ Accessing the project in the browser:
 
 ```
 192.168.99.101:8000
+```
+
+CRUD implementation
+
+```
+Create - POST - http://192.168.99.101:8000/posts/?title={newTitle}&description={newDescription}
+Read - GET (all)- http://192.168.99.101:8000/posts/
+GET (byID) - http://192.168.99.101:8000/posts/{id}
+Update - PATCH - http://192.168.99.101:8000/posts/{id}?title={updatedTitle}&description={updatedTitle}
+Delete - DELETE - http://192.168.99.101:8000/posts/{id}
 ```
