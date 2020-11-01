@@ -29,6 +29,6 @@ CRUD implementation
 Create - POST - http://192.168.99.101:8000/posts/?title={newTitle}&description={newDescription}
 Read - GET (all)- http://192.168.99.101:8000/posts/
 GET (byID) - http://192.168.99.101:8000/posts/{id}
-Update - PATCH - http://192.168.99.101:8000/posts/{id}?title={updatedTitle}&description={updatedTitle}
+Update - PUT - http://192.168.99.101:8000/posts/{id}?title={updatedTitle}&description={updatedTitle}
 Delete - DELETE - http://192.168.99.101:8000/posts/{id}
 ```
